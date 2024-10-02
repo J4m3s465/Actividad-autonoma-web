@@ -1,0 +1,20 @@
+{
+  "users": [
+
+    {
+      "email": "bibliotecario@hotmail.com",
+      "password": "$2a$10$VvfJ4YmL54B2wPmpSez0l.2T7smmMJnvIJOCs4FQe6vLUawnVdgPG",
+      "id": 5
+    },
+    {
+      "email": "admin@hotmail.com",
+      "password": "$2a$10$Xkj1Fcy0uKT6xuYEMH7sYOBIi4DN7FpawlyzvjQl6FpwebTXKzWn6",
+      "id": 6
+    },
+    {
+      "email": "guest@hotmail.com",
+      "password": "$2a$10$4AXjsnN03KMRtVLGwxRsLOnRfMYqrURGQENOqq/ZHdvrzi6978wmK",
+      "id": 7
+    }
+  ]
+}

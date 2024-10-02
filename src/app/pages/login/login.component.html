@@ -1,0 +1,44 @@
+<form (ngSubmit)="login(formulario)" #formulario="ngForm" class="login-form">
+    <div class="form-group">
+        <label for="email">Ingresar correo</label>
+        <input type="text" id="email" name="email" class="form-control" [(ngModel)]="email" required>
+    </div>
+
+    <div class="form-group">
+        <label for="password">Ingresar contraseña</label>
+        <input type="password" id="password" name="password" class="form-control" [(ngModel)]="password" required>
+    </div>
+
+    <button type="submit" class="btn btn-primary btn-block">Login</button>
+</form>
+
+<style>
+    .login-form {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .login-form .form-group {
+        margin-bottom: 15px;
+    }
+
+    .login-form label {
+        font-weight: bold;
+    }
+
+    .login-form input {
+        padding: 10px;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+    }
+
+    .btn-block {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+</style>
